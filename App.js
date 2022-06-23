@@ -4,7 +4,10 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello world!</Text>
+      <Text style={{ color: "#888", fontSize: 18 }}>
+        To share a photo from your phone with a friend, just press the button
+        below!
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
